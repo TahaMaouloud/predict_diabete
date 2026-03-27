@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Data and model artifacts
+data/raw/diabetes.csv
+models/*.joblib
+models/*.json
+
+# IDE
+.vscode/
+.idea/
+
